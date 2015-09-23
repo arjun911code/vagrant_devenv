@@ -16,8 +16,7 @@ file { '/home/arjun':
     source => 'puppet:///modules/users/arjun',
     recurse => remote,
     require => User['arjun'],
-    }
-
+    }    
 }
 
 class groups{
